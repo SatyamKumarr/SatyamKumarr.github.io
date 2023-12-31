@@ -18,6 +18,26 @@ gem "github-pages", group: :jekyll_plugins
 
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
+gem 'webrick'
+gem "jekyll-scholar"
+gem "minimal-mistakes-jekyll"
+gem "kramdown-parser-gfm" 
+gem 'jekyll-seo-tag'
+gem 'jekyll-gist'
+gem 'jekyll-paginate'
+gem 'classifier-reborn'
+gem 'jekyll-diagrams'
+gem 'jekyll-email-protect'
+# gem 'jekyll-feed'
+gem 'jekyll-get-json'
+gem 'jekyll-imagemagick'
+gem 'jekyll-jupyter-notebook'
+gem 'jekyll-link-attributes'
+
+platforms :mingw, :x64_mingw, :mswin, :jruby do
+  gem "tzinfo-data"
+end
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   # gem "jekyll-archives"
